@@ -1,0 +1,135 @@
+body,h1,h2,p{
+    margin: 0;
+    font-family: 'Roboto', serif;
+}
+
+.main_div{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#logo{
+    font-size: 40px;
+    color: #0b66ff;
+    padding: 15px 0px;
+}
+
+.form{
+    background-color: #fff;
+    width: 400px;
+    border-radius: 7px;
+}
+
+.Form-heading{
+    text-align: center;
+    padding: 10px ;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+h2{
+    padding-bottom: 7px;
+}
+
+#abc{
+    color:gray;
+}
+
+.input-fields{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input,select{
+    padding: 7px;
+    border: 1px solid #f0f2f5;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.Half-Width{
+    display: flex;
+    width: 48%;
+}
+
+.Full-Width{
+    display: flex;
+    width: 98%;    
+}
+
+label{
+    font-size: 12px;
+    color: #606770;
+    padding-bottom: 7px;
+}
+
+.dob{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+}
+
+.Quat-width{
+    display: flex;
+    width: 31%;
+}
+
+.radio-btn{
+    border: 1px solid #f0f2f5;
+    border-radius: 5px;
+    width:98%;
+    padding:10px;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.radio-label{
+    padding-bottom: 0;
+    align-items: center;
+    font-size: 17px;
+    
+}
+
+.radio-input{
+    margin: 0px;
+    width : auto;
+}
+
+small{
+    font-size: 10px;
+    padding: 10px 0px;
+    color: #777;
+}
+
+.decoration{
+    text-decoration: none;
+}
+
+.button,#EU{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+}
+
+.signup-btn{
+        background-color: #00a400;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        border: 0;
+        padding : 10px 50px;
+        border-radius: 5px;
+        box-shadow: none;
+        align-items: center;
+}
+
